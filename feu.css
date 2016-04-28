@@ -1,0 +1,94 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);
+@import url(http://fonts.googleapis.com/css?family=Merriweather:400,300,400italic,300italic,700,700italic);
+@import url(http://fonts.googleapis.com/css?family=Nunito:400,300,700);
+/* ==========================================================================
+Typography
+========================================================================== */
+*{
+  transition:all .25s ease-in-out;
+  box-sizing:border-box;
+  outline:none;
+  -webkit-tap-highlight-color:rgba(0,0,0,0)}
+
+@keyframes hideshow {
+  0% { opacity: 1; }
+  10% { opacity: 1; }
+  15% { opacity: 0; }
+  100% { opacity: 0; }
+} 
+.text-1 {
+  animation: hideshow 5s ease infinite;
+}
+.text-2 {
+  opacity: 0;
+  animation: hideshow 5s 1s ease infinite;
+}
+.text-3 {
+  opacity: 0;
+  animation: hideshow 5s 2s ease infinite;
+}
+.actionreact{
+    animation: hideshow 2s 2s ease infinite;
+
+}
+h5 {
+  font-size: 11px;
+  color: #FFF;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+h6 {
+  font-size: 11px;
+  color: #FFF;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+body {
+	background-color: #151210;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-family: 'Nunito', sans-serif;
+    -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.jam {
+  position: absolute;
+  top: 55%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+.topped{
+  position: relative;
+    margin-top: 30px;
+
+}
+
+
+
+.wrap{
+  margin-top: 30px;
+
+}
+.button {
+  width: auto;
+  padding: 14px;
+  height: 35px;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  text-transform: uppercase;
+  font-size: 9px;
+  color: black;
+}
+
+.button:hover {
+  background-color: black;
+  color: white;
+  box-shadow: 0px 15px 20px black;
+  transform: translateY(-4px);
+}
